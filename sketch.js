@@ -5,7 +5,6 @@ let balls = []
 function setup() {
   createCanvas(windowWidth, windowHeight);
   pixelDensity(1);
-  createCapture(VIDEO);
   webcam = createCapture(VIDEO);
   webcam.size(width / scale, height / scale); 
   webcam.hide();
